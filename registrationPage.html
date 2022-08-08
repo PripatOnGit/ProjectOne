@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>DMCE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" style="text-align:center; margin-top: 50px; padding: 50px;">
+        <form action="action_page.php" method="post" id="form1">
+          <h2>Register</h2>
+          <label>Full Name</label>
+          <input type="text" class="inputbtn" id="exampleInputfullname" placeholder="Enter Full Name">
+          <br>
+          <label>Email address</label>
+          <input type="email" class="inputbtn" id="exampleInputEmail1" placeholder="xxx@xx.com">
+          <br>
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="inputbtn"  id="exampleInputPassword1" placeholder="Password">
+          <br>
+          <label for="exampleInputCPassword1">Confirm Password</label>
+          <input type="password" class="inputbtn"  id="exampleInputCPassword1" placeholder="Confirm Password">
+          <br>
+          <button type="button" id="registerbtn" class="btn btn-primary custom-btn" style="margin-top: 20px;" onclick="registerUser()">Register</button>
+      </form>
+      </div>
+  </div>
+    
+  </body>
+</html>
+
